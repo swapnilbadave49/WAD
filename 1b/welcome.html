@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center min-h-screen bg-gray-900 text-white">
+    <div class="bg-gray-800 p-6 rounded-lg shadow-lg text-center w-96">
+        <h2 class="text-2xl font-semibold">Welcome, <span id="user"></span>!</h2>
+        <button onclick="logout()" class="mt-4 px-4 py-2 bg-red-500 rounded-md hover:bg-red-600">
+            Logout
+        </button>
+    </div>
+
+    <script src="welcome.js"></script>
+</body>
+</html>
